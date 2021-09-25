@@ -2,7 +2,7 @@
 Intermediate Roblox anti cheat.
 
 ## Setup
-Place "AntiCheat_Handler.lua" on "ServerScriptService" and make sure It's serversided, then place "LocalPlayer.lua" below the "AntiCheat_Handler.lua" on "ServerScriptService" and make sure It's localscript.
+Place "AntiCheat_Handler.lua" in "ServerScriptService" and make sure It's serversided, then place "LocalScript.lua" below the "AntiCheat_Handler.lua" in "ServerScriptService" and make sure It's localscript.
 
 ## Extra features
 
