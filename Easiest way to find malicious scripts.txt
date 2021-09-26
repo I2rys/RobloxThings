@@ -1,0 +1,1 @@
+Go to your Roblox Studio, press CTRL+SHIFT+F then search some keyword that malicious scripts use like require() & etc.
