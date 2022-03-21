@@ -1,7 +1,0 @@
-Note: Make sure your Roblox Studio is open.
-
-1.Purchase the paid plugin.(Yes buy it)
-2.Once purchased get the plugin id and replace PLUGIN_ID_HERE with the plugin id "game:GetService("InsertService"):LoadAsset(PLUGIN_ID_HERE id,true).Parent = workspace"
-3.Put the code in the Roblox studio "Command Bar" and press enter, now the plugin source code should be in the workspace.
-4.Now to make it free without getting banned. Make an alt account then open Roblox Studio copy and paste the source code to the alt account Roblox studio then publish it.
-5.Easy right????
