@@ -1,6 +1,6 @@
 <div align="center">
 <h1>RobloxThings</h1>
-<h4>Some Roblox things</h4>
+<h4>Some Useful Roblox things</h4>
 <p>
 	<a href="https://github.com/I2rys/RobloxThings/blob/main/LICENSE"><img src="https://img.shields.io/github/license/I2rys/RobloxThings?style=flat-square"></img></a>
 	<a href="https://github.com/I2rys/RobloxThings/issues"><img src="https://img.shields.io/github/issues/I2rys/RobloxThings.svg"></img></a>
