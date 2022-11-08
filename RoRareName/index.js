@@ -9,8 +9,7 @@ const Self_Args = process.argv.slice(2)
 
 //Main
 if(!Self_Args){
-    console.log(`node index.js <dictionary>
-Example: node index.js long_example.txt`)
+    console.log(`node index.js <dictionary>\nExample: node index.js long_example.txt`)
     process.exit()
 }
 
@@ -59,9 +58,10 @@ async function Main(){
             const content = await page.content()
 
             if(content.indexOf("This username is already in use.") != -1 && context.indexOf("Username not appropriate for Roblox.") != -1){
-                console.log(`${Chalk.grey("[") + Chalk.redBright("+") + Chalk.grey("]")} Not available name ${Names[in_name]}`)
+                // More readable outputs
+                console.log(`[${Chalk.redBright("-")}] '${Names[in_name]}' is not available.`)
             }else{
-                console.log(`${Chalk.grey("[") + Chalk.greenBright("+") + Chalk.grey("]")} Available name ${Names[in_name]}`)
+                console.log(`[${Chalk.greenBright("+")}] '${Names[in_name]}' is available.`)
             }
 
             in_name += 1
